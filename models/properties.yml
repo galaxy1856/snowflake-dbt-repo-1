@@ -1,0 +1,8 @@
+models:
+  - name: "dbt1"
+    config:
+      materialized: 'view'
+  - name: "user_v2"
+    config:
+      materialized: 'table'
+  
