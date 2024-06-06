@@ -1,3 +1,10 @@
+sources:
+  - name: "snowflake source"
+    database: "DB_ECOMM"
+    schema: "SC_ECOMM"
+    tables:
+      - name: "customer"
+
 models:
   - name: "dbt1"
     config:
