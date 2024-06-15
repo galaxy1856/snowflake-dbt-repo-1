@@ -12,4 +12,7 @@ models:
   - name: "user_v2"
     config:
       materialized: 'table'
+  - name: "cust_eph"
+    config:
+      materialized: "ephemeral"
   
