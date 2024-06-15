@@ -1,6 +1,8 @@
 seeds:
   - name: dim_name
     config: 
+      full_refresh: true
       column_types:
-        ID: string
+        ID: varchar(5)
+        Name: varchar(2)
       
