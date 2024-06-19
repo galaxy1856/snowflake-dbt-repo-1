@@ -4,6 +4,7 @@ sources:
     schema: "SC_ECOMM"
     tables:
       - name: "customer"
+      - name: "person_sales"
 
 models:
   - name: "dbt1"
